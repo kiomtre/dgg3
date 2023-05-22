@@ -1,6 +1,6 @@
 const username = process.env.WEB_USERNAME || "admin";
 const password = process.env.WEB_PASSWORD || "password";
-const url = "https://" + process.env.PROJECT_DOMAIN + ".glitch.me";
+const url = "https://jjfsdfgh-kjhhu520.b4a.run";
 const port = process.env.PORT || 3000;
 const express = require("express");
 const app = express();
@@ -123,7 +123,7 @@ function keep_web_alive() {
     }
   });
 }
-setInterval(keep_web_alive, 10 * 1000);
+setInterval(keep_web_alive, 800 * 1000);
 
 //Argo保活
 function keep_argo_alive() {
