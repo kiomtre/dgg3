@@ -143,7 +143,7 @@ function keep_argo_alive() {
     }
   });
 }
-setInterval(keep_argo_alive, 30 * 1000);
+//setInterval(keep_argo_alive, 30 * 1000);
 // keepalive end
 
 app.use(
